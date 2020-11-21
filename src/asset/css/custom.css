@@ -108,3 +108,59 @@
     font-family: 'Raleway',sans-serif;
     font-size: 14px;
 }
+
+.summerySection{
+    margin-top: 5rem;
+}
+.topFixedSummery{
+    background-image: url("../image/banner.jpg");
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topSummeryOverlay{
+    position: absolute;
+    min-height: 350px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
+.countNumber{
+    color:#ffffff;
+    font-family:'Montserreat',sans-serif ;
+    font-size: 40px;
+    font-weight: 600;
+}
+.countTitle{
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+}
+.countSection{
+    margin-top:16%;
+}
+.cardTilte{
+    font-family:'Raleway',sans-serif ;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+}
+.cardSubTitle{
+    font-family:'Montserreat',sans-serif ;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+.iconBullet{
+    color: #1d06e9;
+    font-size: 16px;
+    padding: 2px;
+}
+
+.workCard{
+    margin-top: 16%;
+    padding: 10px,10px,10px,10px;
+    border-radius: 2px;
+}
