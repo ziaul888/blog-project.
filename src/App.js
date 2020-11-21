@@ -4,6 +4,7 @@ import TopBanner from "./components/TopBanner/TopBanner";
 import TopNavigation from "./components/TopNavigation/TopNavigation"
 import Analysis from './components/Analysis/Analysis'
 import Summery from "./components/Summary/Summary"
+import Project from './components/Project/Project';
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <Services/>
       <Analysis/>
       <Summery/>
+      <Project/>
       
 
     </div>

@@ -152,15 +152,39 @@
     font-size: 14px;
     font-weight: 400;
     color: #000000;
+    padding-right: 5px;
 }
 .iconBullet{
     color: #1d06e9;
     font-size: 16px;
-    padding: 2px;
+    padding-left: 5px;
+   
+
 }
 
 .workCard{
     margin-top: 16%;
     padding: 10px,10px,10px,10px;
     border-radius: 2px;
+}
+.projectCard{
+    border-radius: 2px;
+    border: none !important;
+    margin: 2px 2px 2px 2px;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+}
+.projectCard:hover{
+    box-shadow: 0 0 8px 0 rgba(0,115,230,0.2);
+}
+
+.projectCardTitle{
+    font-family: 'Montserreat',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.projectCardDes{
+    font-family: 'Raleway',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
 }
