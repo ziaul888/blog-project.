@@ -5,6 +5,8 @@ import TopNavigation from "./components/TopNavigation/TopNavigation"
 import Analysis from './components/Analysis/Analysis'
 import Summery from "./components/Summary/Summary"
 import Project from './components/Project/Project';
+import Coursea from './components/courses/Coursea';
+
 
 
 
@@ -17,7 +19,7 @@ function App() {
       <Analysis/>
       <Summery/>
       <Project/>
-      
+      <Coursea/>
 
     </div>
   );

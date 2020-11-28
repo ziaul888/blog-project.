@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Container,Col,Card,Row,Button } from 'react-bootstrap'
+import Projectlogo from '../../asset/image/training-and-furlough-1.jpg'
 
 export default class Project extends Component {
 render() {
@@ -10,7 +11,7 @@ return (
         <Row>
             <Col lg={4} md={6} sm={12}>
             <Card className="projectCard">
-                <Card.Img variant="top" src="http://rabbil.com/ControlPanel/Images/foolbazz.png"  alt="img"/>
+                <Card.Img variant="top" src={Projectlogo}  alt="img"/>
                 <Card.Body>
                     <Card.Title className="projectCardTitle">Card Title</Card.Title>
                     <Card.Text projectCardDes>
@@ -23,7 +24,7 @@ return (
             </Col>
             <Col lg={4} md={6} sm={12}>
             <Card  className="projectCard">
-                <Card.Img variant="top" src="http://rabbil.com/ControlPanel/Images/foolbazz.png" />
+                <Card.Img variant="top" src={Projectlogo} />
                 <Card.Body >
                     <Card.Title className="projectCardTitle">Card Title</Card.Title>
                     <Card.Text projectCardDes>
@@ -36,7 +37,7 @@ return (
             </Col>
             <Col lg={4} md={6} sm={12}>
             <Card className="projectCard">
-                <Card.Img variant="top" src="http://rabbil.com/ControlPanel/Images/foolbazz.png" />
+                <Card.Img variant="top" src={Projectlogo} />
                 <Card.Body>
                     <Card.Title className="projectCardTitle">Card Title</Card.Title>
                     <Card.Text projectCardDes>
