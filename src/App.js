@@ -8,6 +8,7 @@ import Project from './components/Project/Project';
 import Coursea from './components/courses/Coursea';
 import Video from './components/Video/Video'
 import ClientReview from "./components/ClientReview/ClientReview"
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Coursea/>
       <Video/>
       <ClientReview/>
+      <Footer/>
 
     </div>
   );
