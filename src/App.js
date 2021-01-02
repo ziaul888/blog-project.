@@ -6,7 +6,7 @@ import Analysis from './components/Analysis/Analysis'
 import Summery from "./components/Summary/Summary"
 import Project from './components/Project/Project';
 import Coursea from './components/courses/Coursea';
-
+import Video from './components/Video/Video'
 
 
 
@@ -20,6 +20,7 @@ function App() {
       <Summery/>
       <Project/>
       <Coursea/>
+      <Video/>
 
     </div>
   );
