@@ -7,8 +7,7 @@ import Summery from "./components/Summary/Summary"
 import Project from './components/Project/Project';
 import Coursea from './components/courses/Coursea';
 import Video from './components/Video/Video'
-
-
+import ClientReview from "./components/ClientReview/ClientReview"
 
 function App() {
   return (
@@ -21,6 +20,7 @@ function App() {
       <Project/>
       <Coursea/>
       <Video/>
+      <ClientReview/>
 
     </div>
   );
