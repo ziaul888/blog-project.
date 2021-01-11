@@ -1,7 +1,7 @@
 import React, {Component,Fragment} from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faEnvelope, faPhone, faPlayCircle} from "@fortawesome/free-solid-svg-icons";
+import {faEnvelope, faPhone} from "@fortawesome/free-solid-svg-icons";
 import {faFacebook,faYoutube} from "@fortawesome/free-brands-svg-icons";
 
 class Footer extends Component {

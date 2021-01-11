@@ -6,8 +6,8 @@ class AllCourse extends Component {
     render() {
         return (
             <>
-            <Container className="text-center">
-                     <h1 className="serviceMainTitle">OUR COURSES</h1>
+            <Container className="text-center mt-5">
+                     
                      <Row>
                          <Col lg={6} md={12} sm={12}>
                              <Row>
@@ -62,7 +62,7 @@ class AllCourse extends Component {
                              </Row>
                          </Col>
 
-
+                            
                      </Row>
                  </Container>
          </>

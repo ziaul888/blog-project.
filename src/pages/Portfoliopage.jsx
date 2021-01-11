@@ -1,20 +1,21 @@
 import React, { Component } from 'react';
+
 import  Footer  from '../components/Footer/Footer';
 import PageTop from '../components/PageTop/PageTop';
-import AllCourse from '../components/AllCourse/AllCourse'
-import TopNavigation from '../components/TopNavigation/TopNavigation';
+import TopNavigation from '../components/TopNavigation/TopNavigation'; 
+import Project from '../components/Project/Project';
 
-class AllCoursePage extends Component {
+class Portfoliopage extends Component {
     render() {
         return (
             <>
                 <TopNavigation/>
                 <PageTop pageTitle="All Courses"/>
-                <AllCourse/>
+                <Project/>
                 <Footer/>
             </>
         );
     }
 }
 
-export default AllCoursePage;
+export default Portfoliopage;
