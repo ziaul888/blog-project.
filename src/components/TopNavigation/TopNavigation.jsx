@@ -4,6 +4,7 @@ import whitelogo from '../../asset/image/navlogo.svg'
 import bluelogo from '../../asset/image/navlogoScroll.svg'
 import '../../asset/css/custom.css'
 import '../../asset/css/bootstrap.min.css'
+import {NavLink} from "react-router-dom"
 
 
 
@@ -54,12 +55,12 @@ return (
             <Nav className="mr-auto">
             </Nav>
             <Nav>
-                 <Nav.Link href="#deets" className={this.state.navbarItem}>HOME</Nav.Link>
-                 <Nav.Link href="#deets" className={this.state.navbarItem}>SERVICES</Nav.Link>
-                 <Nav.Link href="#deets" className={this.state.navbarItem}>COURSES</Nav.Link>
-                 <Nav.Link href="#deets" className={this.state.navbarItem}>PORTFOLIO</Nav.Link>
-                 <Nav.Link href="#deets" className={this.state.navbarItem}>CONTACT</Nav.Link>
-                 <Nav.Link href="#deets" className={this.state.navbarItem}>ABOUT</Nav.Link>
+                <Nav.Link> <NavLink to="/" className={this.state.navbarItem}>HOME</NavLink></Nav.Link>
+                <Nav.Link>    <NavLink to="/services" className={this.state.navbarItem}>SERVICES</NavLink></Nav.Link>
+                <Nav.Link>   <NavLink to="/course" className={this.state.navbarItem}>COURSES</NavLink></Nav.Link>
+                <Nav.Link>   <NavLink to="/portfolio" className={this.state.navbarItem}>PORTFOLIO</NavLink></Nav.Link>
+                <Nav.Link>  <NavLink to="/contact" className={this.state.navbarItem}>CONTACT</NavLink></Nav.Link> 
+                <Nav.Link>  <NavLink to="/about" className={this.state.navbarItem}>ABOUT</NavLink></Nav.Link> 
             </Nav>
         </Navbar.Collapse>
     </Navbar>
