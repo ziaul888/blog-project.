@@ -12,8 +12,8 @@ class Footer extends Component {
                     <Row>
                         <Col lg={3} md={6} sm={12} className="p-5 text-justify">
                             <h1 className="serviceName">Follow Me</h1>
-                            <a className="socialLink" href="#"><FontAwesomeIcon  icon={faFacebook} /> Facebook</a><br/>
-                            <a className="socialLink" href="#"><FontAwesomeIcon  icon={faYoutube} /> YouTube</a>
+                            <a  className="socialLink" href="#facebook"><FontAwesomeIcon  icon={faFacebook} /> Facebook</a><br/>
+                            <a className="socialLink" href="#youtube"><FontAwesomeIcon  icon={faYoutube} /> YouTube</a>
                         </Col>
                         <Col lg={3} md={6} sm={12} className="p-5 text-justify">
                             <h1 className="serviceName">Address</h1>
@@ -23,21 +23,21 @@ class Footer extends Component {
                         </Col>
                         <Col lg={3} md={6} sm={12} className="p-5 text-justify">
                             <h1 className="serviceName">Information</h1>
-                            <a className="footerLink" href="#">About Me</a><br/>
-                            <a  className="footerLink" href="#">My Resume</a><br/>
-                            <a className="footerLink" href="#">Contact Me</a>
+                            <a className="footerLink" href="#about">About Me</a><br/>
+                            <a  className="footerLink" href="#cv">My Resume</a><br/>
+                            <a className="footerLink" href="#number">Contact Me</a>
                         </Col>
                         <Col lg={3} md={6} sm={12} className="p-5 text-justify">
                             <h1 className="serviceName">Legal</h1>
-                            <a  className="footerLink" href="#">Refund Policy</a><br/>
-                            <a className="footerLink" href="#">Terms And Condition</a><br/>
-                            <a className="footerLink" href="#">Privacy Policy</a>
+                            <a  className="footerLink" href="#refund">Refund Policy</a><br/>
+                            <a className="footerLink" href="#terms">Terms And Condition</a><br/>
+                            <a className="footerLink" href="#policy">Privacy Policy</a>
                         </Col>
                     </Row>
                 </Container>
 
                 <Container fluid={true} className="text-center copyrightSection">
-                    <a className="copyrightLink" href="#">bappy.com &copy; 2019-2020</a>
+                    <a className="copyrightLink" href="#bappy">bappy.com &copy; 2019-2020</a>
                 </Container>
 
             </Fragment>

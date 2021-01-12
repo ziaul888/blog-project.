@@ -40,7 +40,7 @@ class ContactSection extends Component {
                         <Col lg={6} md={6} sm={12}>
                             <h1 className="serviceName">Discuss Now</h1>
                             <p className="serviceDescription" >#79/6 Padma Residential Aria, 3rd Floor Front Side, Rajshahi</p>
-                            <p className="serviceDescription" > <FontAwesomeIcon  icon={faEnvelope} /> Engr.Rabbil@yahoo.com</p>
+                            <p className="serviceDescription" > <FontAwesomeIcon  icon={faEnvelope} /> ziaul935@gmail.com</p>
                             <p className="serviceDescription" > <FontAwesomeIcon  icon={faPhone} /> +8801701063280</p>
                         </Col>
                     </Row>

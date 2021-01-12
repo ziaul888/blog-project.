@@ -49,18 +49,18 @@ render() {
 return (
 <>
     <Navbar  fixed="top"  collapseOnSelect expand="lg"  variant="dark" className={this.state.navbarBack}>
-        <Navbar.Brand className={this.state.navbarTitle}  href="#home" > <img src={this.state.navlogo} alt="img"/>  Bappy Hoque</Navbar.Brand>
+        <Navbar.Brand className={this.state.navbarTitle}  href="#home" > <img src={this.state.navlogo} alt="img"/> LOGO</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
             </Nav>
             <Nav>
-                <Nav.Link> <NavLink to="/" className={this.state.navbarItem}>HOME</NavLink></Nav.Link>
-                <Nav.Link>    <NavLink to="/services" className={this.state.navbarItem}>SERVICES</NavLink></Nav.Link>
-                <Nav.Link>   <NavLink to="/course" className={this.state.navbarItem}>COURSES</NavLink></Nav.Link>
-                <Nav.Link>   <NavLink to="/portfolio" className={this.state.navbarItem}>PORTFOLIO</NavLink></Nav.Link>
-                <Nav.Link>  <NavLink to="/contact" className={this.state.navbarItem}>CONTACT</NavLink></Nav.Link> 
-                <Nav.Link>  <NavLink to="/about" className={this.state.navbarItem}>ABOUT</NavLink></Nav.Link> 
+                <Nav.Link> <NavLink  exact activeStyle={{color:'#00a8ee'}} to="/" className={this.state.navbarItem}>HOME</NavLink></Nav.Link>
+                <Nav.Link> <NavLink exact activeStyle={{color:'#00a8ee'}} to="/services" className={this.state.navbarItem}>SERVICES</NavLink></Nav.Link>
+                <Nav.Link> <NavLink exact activeStyle={{color:'#00a8ee'}} to="/course" className={this.state.navbarItem}>COURSES</NavLink></Nav.Link>
+                <Nav.Link> <NavLink exact activeStyle={{color:'#00a8ee'}} to="/portfolio" className={this.state.navbarItem}>PORTFOLIO</NavLink></Nav.Link>
+                <Nav.Link> <NavLink exact activeStyle={{color:'#00a8ee'}} to="/contact" className={this.state.navbarItem}>CONTACT</NavLink></Nav.Link> 
+                <Nav.Link> <NavLink exact activeStyle={{color:'#00a8ee'}} to="/about" className={this.state.navbarItem}>ABOUT</NavLink></Nav.Link> 
             </Nav>
         </Navbar.Collapse>
     </Navbar>
